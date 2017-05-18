@@ -3,7 +3,7 @@ layout: post
 title: Wordpress blog on shared hosting
 ---
 
-## Wordpress blog on shared hosting
+# Wordpress blog on shared hosting
 
 I am sure many people loves wordpress and it is really really great blogging platform. Well this is more than the blogging platform as there are many professional websites running on the WordPress.
 
