@@ -2,8 +2,6 @@
 layout: post
 ---
 
-## Windows 8 Developers Preview
-
 Alright so next version of windows (windows8) is coming soon now. The moment I got the news that a developer preview of windows 8 is available for the download, I was very excited to see this running. I planned to download this and install in my ESXI infrastructure so that this could be tested/used optionally without making any physical machine a brick.
 ![screenshot](/images/windows8-150x150.png "Screenshot")
 I first tried to install this directly in ESXI but no success. It gave me HAL INTIALIZATION ERROR, which turned out to be known issue reported by many of folks over the internet. Instead of spending time to do more research and try to understand the issue, I thought to install it on other virtualization system. VMware client gives different error stating something is missing and a long technical log.
