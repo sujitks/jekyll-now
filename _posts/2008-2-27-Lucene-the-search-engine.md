@@ -3,7 +3,7 @@ layout: post
 title: Lucene the search engine
 ---
 
-###Introduction
+### Introduction
 Organization of the information in different categories and accessing them quickly is always interesting subject. We always keep storing useful information in database, documents, and other different storage medium.
 
 Now when we have cheaper storage device and lots of sources for information everyday it becomes difficult to organize the data and access them as and when required.
@@ -16,7 +16,7 @@ There are many Full Text Solutions available in the market from almost all major
 
 Lucene is open source indexing and searching solution supported by Apache Software Foundation using Java as the programming language. First version of Lucene (0.01) was released in March 2000 (8 years ago) from the SourceForge. First apache Jakarta release was released in June 2002 (version 1.2).
 
-###Overview
+### Overview
 Lucene is a high performance and scalable information retrieval open source framework. This is being used by many famous organizations for their search solution. Microsoft Lookout is also based on Lucene.net (.net port of Lucene).
 
 Some of the organizations which use Lucene are following:
@@ -38,7 +38,7 @@ As oracle supports java and has got built in JVM in oracle database entire Lucen
 
 I have not got opportunity to work with OJVMDirecotry initiative but it sounds very interesting. Lucene hosted inside oracle and you can build Lucene based indexes on the tables and later on these indexes can be used with combination of other Sql or pl/Sql code. J
 
-###Getting started with Lucene
+### Getting started with Lucene
 
 For using Lucene in the application we have to first build index by using different classes and APIs. All samples give here are based on Lucene.net (dot net port of Lucene).
 
@@ -156,7 +156,7 @@ writer.AddDocument(doc);
 ```
 Note: Have you noticed different parameters of the Field constructor? These are attributes of a field in a Document (Lucene Document) collection of documents formed a lucene index. By specifying the different attribute of Field we can tell lucene framework to store the information in different ways. For example we may want to tokenise a big string or we want to store the entire string as a single field. We can use different Analyser which are useful for handling punctuations, number or language specific words… etc.
 
-###Searching the Lucene index
+### Searching the Lucene index
 
 Searching the information from Lucene index is very easy. There are various options available to get the result using the filter criteria, sorting etc. There are different analyzers available to be used with and one can write a custom analyzer for specific language or need.
 
@@ -197,7 +197,7 @@ return Addresses;
 ```
 Note: Similar to indexing there are various methods available to control the search behavior. We can use different analyzers to for treating punctuation, white spaces, numbers etc differently. There are various options available with Searcher class to get the searched result in specific order.
 
-###Summary
+### Summary
 
 Lucene is a very powerful and robust search framework which is being used by many organizations since years. There are many language ports available to be used.
 
@@ -207,7 +207,7 @@ Performance is tremendous and I must say that if you like google style search an
 
 There are various website, search engines and applications which are already using Lucene underneath. This is very useful tool/framework for building enterprise application with index and search capabilities, document management system, information repository system, Mobile application (please note size of entire Lucene.net assembly after compilation form is less than 300 KB).
 
-8. References
+### References
 
 [Jakarta Apache site](http://lucene.apache.org/)
 
@@ -217,8 +217,8 @@ There are various website, search engines and applications which are already usi
 
 [Lucene.net](http://incubator.apache.org/Lucene.net)
 
-[Marcelo Ochoa’s Blog](http://marceloochoa.blogspot.com/2007/09/turbocharge-your-oracle-jvm.html (Lucene domain index in oracle)
+[Marcelo Ochoa Blog](http://marceloochoa.blogspot.com/2007/09/turbocharge-your-oracle-jvm.html (Lucene domain index in oracle)
 
-[Lucene in action](http://www.manning.com/hatcher2/ (ISBN: 1932394281).
+[Lucene in action](http://www.manning.com/hatcher2/) ISBN: 1932394281.
 
 There are loads of materials available for the topic if you search in any popular search engine.
