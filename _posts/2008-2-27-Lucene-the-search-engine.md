@@ -217,7 +217,7 @@ There are various website, search engines and applications which are already usi
 
 [Lucene.net](http://incubator.apache.org/Lucene.net)
 
-[Marcelo Ochoa Blog](http://marceloochoa.blogspot.com/2007/09/turbocharge-your-oracle-jvm.html (Lucene domain index in oracle)
+[Marcelo Ochoa Blog](http://marceloochoa.blogspot.com/2007/09/turbocharge-your-oracle-jvm.html) Lucene domain index in oracle
 
 [Lucene in action](http://www.manning.com/hatcher2/) ISBN: 1932394281.
 
